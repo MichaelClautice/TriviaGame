@@ -1,0 +1,70 @@
+/* this is Mike Clautice's JavaScript Trivia Quiz V2 */
+
+
+/* ARRG! I can't get my background-image to work in CSS! */
+
+body {
+  /*    background-color: yellow;
+      background-color: grey;*/
+  background-image: url("assets/images/backgroundImage2.jpg");
+}
+
+#middle_column {
+  background-color: red;
+}
+
+#wrapper {
+  /*  padding: 5% 0;*/
+  background-color: yellow;
+  /*  width:750px;*/
+  width: 75%;
+  margin: 5% auto;
+  box-sizing: border-box;
+  min-height: 80%;
+}
+
+#subwrapper {
+  position: relative;
+  top: 20%;
+  background-color: pink;
+}
+
+
+/* Set black background color, white text and some padding */
+
+footer {
+  background-color: #555;
+  color: white;
+  padding: 15px;
+}
+
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+
+@media screen and (max-width: 767px) {
+  .sidenav {
+    height: auto;
+    padding: 15px;
+  }
+  .row.content {
+    height: auto;
+  }
+}
+
+button {
+  display: block;
+  width: 250px;
+  height: 100px;
+  margin: 10px auto 0 auto;
+  border: none;
+  cursor: pointer;
+  cursor: help;
+  /*      background:transparent;*/
+  background-color: limegreen;
+  font-size: 20px;
+  ;
+  border-radius: 25px;
+}
+
+
+/* this is Mike Clautice's JavaScript Trivia Quiz V2 */
